@@ -207,16 +207,6 @@
               }
             }
           },
-          "400": {
-            "description": "ContentPolicyViolationError",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ErrorResponse"
-                }
-              }
-            }
-          },
           "422": {
             "description": "UnprocessableEntityError",
             "content": {
